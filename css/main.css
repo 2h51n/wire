@@ -339,13 +339,13 @@ background-color: rgba(0,0,0,0.5);
 }
 
 /* 하단 */
-.footer{
-    position: relative;
-    display: block;
+/* footer */
+.footer {
     width: 100%;
+    height: 100px;
     background-color: #117488;
-    margin-top: 10px;
-}
+  }
+  
 .footer-inner{
     width: 1200px;
     background-color: #ccc;
@@ -353,35 +353,47 @@ background-color: rgba(0,0,0,0.5);
     margin: auto;
     display: flex;
 }
-.ft-logo{
-    display: flex;
+.ft-logo {
     width: 200px;
     height: 100px;
-    /* padding-left: 400px; */
-}
-.ft-logo ul li a{
+    padding: 20px;
+  }
+  
+  .ft-logo a {
     width: 100%;
     height: 100%;
-}
-.ft-logo ul li a img{
+  }
+  .ft-logo a img {
     width: 100%;
     height: 100%;
+  }
+  .ft-site {
+    width: 1000px;
+    height: 100%;
+    background-color: #feb2b2;
+    text-align: center;
+  
+    .ft-menu,.copy {
+      width: 100%;
+      height: 50px;
+      background-color: #664545;
+      color: #ccc;
+      font-size: 14px;
+    }
 }
-.ft-menu{
-    position: absolute;
-    top: 0;
-    right: 150px;
+.ft-menu  {
+    margin: auto;
+    width: 50%;
     display: flex;
-    margin-left: 10px;
-    /* display: block; */
-}
-.ft-menu a{
-    display: flex;
-    padding-left: 20px;
-}
+    justify-content: space-around;
+    padding-top: 15px;
+  }
+  
+  .ft-menu  li a{
+    font-size: 14px;
+    color: #ccc;
+  }
+  
 .copy{
-    position: absolute;
-    bottom: 0;
-    right: 150px;
-    padding-bottom: 10px;
+    .copy{line-height: 50px;}
 }

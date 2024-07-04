@@ -202,15 +202,13 @@ background-color: rgba(0,0,0,0.5);
 /* 공지사항/갤러리 */
 .tapmenu{
     width: 395px;
-    /* background-color: #117488; */
-    display: flex;
     padding: 5px 0;
+    display: flex;  
 }
 .tapmenu li{
     width: 100px;
     height: 30px;
     line-height: 30px;
-    position: relative;
 }
 .tapmenu > li div{
     position: absolute;
@@ -224,11 +222,11 @@ background-color: rgba(0,0,0,0.5);
     height: 148px;
     border: 1px solid #ddd;
 }
-.tapmenu li > a{
+.tapmenu > li > a{
     font-size: 16px;
     text-align: center;
     background-color: #ccc;
-    /* border: 1px solid #ddd; */
+    border: 1px solid #ddd;
     border-bottom: none;
 }
 .tapmenu li > a:hover{
